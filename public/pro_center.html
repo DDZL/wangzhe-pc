@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1"/>
+	<link rel="stylesheet" href="../css/bootstrap.css"/>
+	<link rel="stylesheet" href="../css/header.css"/>
+	<link rel="stylesheet" href="../img/i/style.css"/>
+	<link rel="shortcut icon" href="../img/tb/xy.png"/>
+	<script src="../js/jquery.min.js"></script>
+	<script src="../js/popper.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<title>商品页</title>
+</head>
+<body>
+<iframe src="header.html" frameborder="0" scrolling="no" class="header"></iframe>
+<div class="container">
+	<!-- 面包屑导航-->
+		<ul class="breadcrumb">
+			<li class="breadcrumb-item">
+				<a href="index.html" class="a-decoration text-secondary">首页</a></li>
+			<li class="breadcrumb-item">
+				<a href="#" class="disabled a-decoration text-secondary">热卖</a></li>
+		</ul>
+	<!--商品分类-->
+		<ul class="list-unstyled d-flex ml-4_5 pb-3 border-bottom border-secondary">
+			<li class="text-secondary font-16 ml-3">分类：</li>
+			<li class="text-secondary font-16 ml-5">
+				<a href="#" class="a-decoration text-black font-weight-bold font-14">全部</a>
+			</li>
+			<li class="text-secondary font-16 ml-5">
+				<a href="#" class="a-decoration text-secondary font-14">数码3C</a>
+			</li>
+			<li class="text-secondary font-16 ml-4">
+				<a href="#" class="a-decoration text-secondary font-14">服饰</a>
+			</li>
+			<li class="text-secondary font-16 ml-4">
+				<a href="#" class="a-decoration text-secondary font-14">手办模玩</a>
+			</li>
+			<li class="text-secondary font-16 ml-4">
+				<a href="#" class="a-decoration text-secondary font-14">毛绒玩偶</a>
+			</li>
+			<li class="text-secondary font-16 ml-4">
+				<a href="#" class="a-decoration text-secondary font-14 text-center">生活用品</a>
+			</li>
+			<li class="text-secondary font-16 ml-4">
+				<a href="#" class="a-decoration text-secondary font-14">智能机器人</a>
+			</li>
+		</ul>
+	<!-- 排序、筛选 -->
+		<div class="d-flex justify-content-between">
+			<!-- 排序-->
+			<ul class="list-unstyled d-flex ml-4_5">
+				<li class="text-secondary font-16 ml-4_5">排序：</li>
+				<li class="text-secondary font-16 ml-5">
+					<a href="#" class="a-decoration text-black font-weight-bold font-14">默认</a>
+				</li>
+				<li class="text-secondary font-16 ml-5">
+					<a href="#" class="a-decoration text-secondary font-14">价格
+					<i class="icon-equalizer2 font-14"></i></a>
+				</li>
+				<li class="text-secondary font-16 ml-5">
+					<a href="#" class="a-decoration text-secondary font-14">新品
+						<i class="icon-equalizer2 font-14"></i></a>
+				</li>
+				<li class="text-secondary font-16 ml-5">
+					<a href="#" class="a-decoration text-secondary font-14">人气
+						<i class="icon-equalizer2 font-14"></i></a>
+				</li>
+				<li class="text-secondary font-16 ml-5">
+					<a href="#" class="a-decoration text-secondary font-14">销量
+						<i class="icon-equalizer2 font-14"></i></a>
+				</li>
+
+			</ul>
+			<!-- 筛选-->
+			<ul class="list-unstyled d-flex">
+				<li>筛选：</li>
+				<li>
+					<input type="radio" name="dd" id="a" value="有货"/>
+					<label for="a" class="mb-0"></label>
+					<span>有货</span>
+				</li>
+				<li>
+					<input type="radio" name="dd" id="b" value="包邮"/>
+					<label for="b" class="mb-0"></label>
+					<span>包邮</span>
+				</li>
+				<li class="mr-3">
+					<input type="radio" name="dd" id="c" value="聚豆可抵"/>
+					<label for="c" class="mb-0"></label>
+					<span>聚豆可抵</span>
+				</li>
+			</ul>
+		</div>
+		<!-- 商品-->
+	<div class="row">
+			<!--第一行商品 -->
+			<div class="col-sm-12">
+				<ul class="list-unstyled d-flex mt-4">
+					<li class="li-transform">
+						<a href="commodity.html" class="a-decoration">
+							<img src="../img/sp/1.jpg" class="w-100"/>
+							<p class="text-center font-14 text-dark">吕布智能机器人（豪华套装版）</p>
+							<p class="text-center text-danger">￥1699.00
+								<span class="text-decoration font-12 text-secondary">￥1999.00</span></p>
+						</a>
+					</li>
+					<li class="li-transform">
+						<a href="#" class="a-decoration">
+							<img src="../img/sp/2.jpg" class="w-100"/>
+							<p class="text-center font-14 text-dark">孙尚香智能机器人音箱</p>
+							<p class="text-center text-danger">￥398.00
+								<span class="text-decoration font-12 text-secondary">￥598.00</span></p>
+						</a>
+					</li>
+					<li class="li-transform">
+						<a href="#" class="a-decoration">
+							<img src="../img/sp/3.jpg" class="w-100"/>
+							<p class="text-center font-14 text-dark">吕布智能机器人（标准版）</p>
+							<p class="text-center text-danger">￥999.00
+								<span class="text-decoration font-12 text-secondary">￥1999.00</span></p>
+						</a>
+					</li>
+					<li class="li-transform">
+						<a href="#" class="a-decoration">
+							<img src="../img/sp/4.jpg" class="w-100"/>
+							<p class="text-center font-14 text-dark">稳住口号T恤</p>
+							<p class="text-center text-danger">￥79.00
+								<span class="text-decoration font-12 text-secondary">￥198.00</span></p>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!-- 第二行商品-->
+			<div class="col-sm-12">
+				<ul class="list-unstyled d-flex mt-4">
+					<li class="li-transform">
+						<a href="#" class="a-decoration">
+							<img src="../img/sp/5.jpg" class="w-100"/>
+							<p class="text-center font-14 text-dark">我拿红BUFF毛绒玩偶</p>
+							<p class="text-center text-danger">￥68.00
+								<span class="text-decoration font-12 text-secondary">￥98.00</span></p>
+						</a>
+					</li>
+					<li class="li-transform">
+						<a href="#" class="a-decoration">
+							<img src="../img/sp/6.jpg" class="w-100"/>
+							<p class="text-center font-14 text-dark">逍遥游鲲抱枕</p>
+							<p class="text-center text-danger">￥118.00
+								<span class="text-decoration font-12 text-secondary">￥168.00</span></p>
+						</a>
+					</li>
+					<li class="li-transform">
+						<a href="#" class="a-decoration">
+							<img src="../img/sp/7.jpg" class="w-100"/>
+							<p class="text-center font-14 text-dark">萌新伙伴赵云妲己挂件</p>
+							<p class="text-center text-danger">￥118.00
+								<span class="text-decoration font-12 text-secondary">￥168.00</span></p>
+						</a>
+					</li>
+					<li class="li-transform">
+						<a href="#" class="a-decoration">
+							<img src="../img/sp/8.jpg" class="w-100"/>
+							<p class="text-center font-14 text-dark">天美官方艺术典藏（精装版）</p>
+							<p class="text-center text-danger">￥168.00
+								<span class="text-decoration font-12 text-secondary">￥198.00</span></p>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!-- 第三行商品-->
+			<div class="col-sm-12">
+				<ul class="list-unstyled d-flex mt-4">
+					<li class="li-transform">
+						<a href="#" class="a-decoration">
+							<img src="../img/sp/9.jpg" class="w-100"/>
+							<p class="text-center font-14 text-dark">末日机甲吕布孙尚香印花T恤</p>
+							<p class="text-center text-danger">￥79.00
+							<span class="text-decoration font-12 text-secondary">￥118.00</span></p>
+						</a>
+					</li>
+					<li class="li-transform">
+						<a href="#" class="a-decoration">
+							<img src="../img/sp/10.jpg" class="w-100"/>
+							<p class="text-center font-14 text-dark">破灭刀锋凯Q版手办</p>
+							<p class="text-center text-danger">￥168.00
+								<span class="text-decoration font-12 text-secondary">￥198.00</span></p>
+						</a>
+					</li>
+					<li class="li-transform">
+						<a href="#" class="a-decoration">
+							<img src="../img/sp/11.jpg" class="w-100"/>
+							<p class="text-center font-14 text-dark">制霸全明星牛魔手办</p>
+							<p class="text-center text-danger">￥98.00
+								<span class="text-decoration font-12 text-secondary">￥168.00</span></p>
+						</a>
+					</li>
+					<li class="li-transform">
+						<a href="#" class="a-decoration">
+							<img src="../img/sp/12.jpg" class="w-100"/>
+							<p class="text-center font-14 text-dark">禁血狂兽张飞1/12可动人偶</p>
+							<p class="text-center text-danger">￥368.00
+								<span class="text-decoration font-12 text-secondary">￥598.00</span></p>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	<!-- 分页-->
+	<div class="row mb-5 mt-2">
+		<div class="col-sm-12 d-flex justify-content-between">
+			<ul class="list-unstyled d-flex">
+				<li>
+					<a href="#" class="btn btn-info disabled">1</a>
+					<a href="pro_center2.html" class="btn btn-info">2</a>
+				</li>
+			</ul>
+			<ul class="list-unstyled d-flex">
+				<li>
+					<a href="#" class="btn btn-secondary disabled">&lt;</a>
+					<a href="pro_center2.html" class="btn btn-secondary">&gt;</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<iframe src="footer.html" frameborder="0" scrolling="no" class="footer"></iframe>
+</body>
+</html>

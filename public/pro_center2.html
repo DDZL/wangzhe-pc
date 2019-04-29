@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1"/>
+	<link rel="stylesheet" href="../css/bootstrap.css"/>
+	<link rel="stylesheet" href="../css/header.css"/>
+	<link rel="stylesheet" href="../img/i/style.css"/>
+	<link rel="shortcut icon" href="../img/tb/xy.png"/>
+	<script src="../js/jquery.min.js"></script>
+	<script src="../js/popper.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<title>商品页</title>
+</head>
+<body>
+<iframe src="header.html" frameborder="0" scrolling="no" class="header"></iframe>
+<div class="container">
+	<!-- 面包屑导航-->
+		<ul class="breadcrumb">
+			<li class="breadcrumb-item">
+				<a href="index.html" class="a-decoration text-secondary">首页</a></li>
+			<li class="breadcrumb-item">
+				<a href="#" class="disabled a-decoration text-secondary">热卖</a></li>
+		</ul>
+	<!--商品分类-->
+		<ul class="list-unstyled d-flex ml-4_5 pb-3 border-bottom border-secondary">
+			<li class="text-secondary font-16 ml-3">分类：</li>
+			<li class="text-secondary font-16 ml-5">
+				<a href="#" class="a-decoration text-black font-weight-bold font-14">全部</a>
+			</li>
+			<li class="text-secondary font-16 ml-5">
+				<a href="#" class="a-decoration text-secondary font-14">数码3C</a>
+			</li>
+			<li class="text-secondary font-16 ml-4">
+				<a href="#" class="a-decoration text-secondary font-14">服饰</a>
+			</li>
+			<li class="text-secondary font-16 ml-4">
+				<a href="#" class="a-decoration text-secondary font-14">手办模玩</a>
+			</li>
+			<li class="text-secondary font-16 ml-4">
+				<a href="#" class="a-decoration text-secondary font-14">毛绒玩偶</a>
+			</li>
+			<li class="text-secondary font-16 ml-4">
+				<a href="#" class="a-decoration text-secondary font-14 text-center">生活用品</a>
+			</li>
+			<li class="text-secondary font-16 ml-4">
+				<a href="#" class="a-decoration text-secondary font-14">智能机器人</a>
+			</li>
+		</ul>
+	<!-- 排序、筛选 -->
+		<div class="d-flex justify-content-between">
+			<!-- 排序-->
+			<ul class="list-unstyled d-flex ml-4_5">
+				<li class="text-secondary font-16 ml-4_5">排序：</li>
+				<li class="text-secondary font-16 ml-5">
+					<a href="#" class="a-decoration text-black font-weight-bold font-14">默认</a>
+				</li>
+				<li class="text-secondary font-16 ml-5">
+					<a href="#" class="a-decoration text-secondary font-14">价格
+					<i class="icon-equalizer2 font-14"></i></a>
+				</li>
+				<li class="text-secondary font-16 ml-5">
+					<a href="#" class="a-decoration text-secondary font-14">新品
+						<i class="icon-equalizer2 font-14"></i></a>
+				</li>
+				<li class="text-secondary font-16 ml-5">
+					<a href="#" class="a-decoration text-secondary font-14">人气
+						<i class="icon-equalizer2 font-14"></i></a>
+				</li>
+				<li class="text-secondary font-16 ml-5">
+					<a href="#" class="a-decoration text-secondary font-14">销量
+						<i class="icon-equalizer2 font-14"></i></a>
+				</li>
+
+			</ul>
+			<!-- 筛选-->
+			<ul class="list-unstyled d-flex">
+				<li>筛选：</li>
+				<li>
+					<input type="radio" name="dd" id="a" value="有货"/>
+					<label for="a" class="mb-0"></label>
+					<span>有货</span>
+				</li>
+				<li>
+					<input type="radio" name="dd" id="b" value="包邮"/>
+					<label for="b" class="mb-0"></label>
+					<span>包邮</span>
+				</li>
+				<li class="mr-3">
+					<input type="radio" name="dd" id="c" value="聚豆可抵"/>
+					<label for="c" class="mb-0"></label>
+					<span>聚豆可抵</span>
+				</li>
+			</ul>
+		</div>
+		<div class="row">
+			<!--第一行商品 -->
+			<div class="col-sm-12">
+				<ul class="list-unstyled d-flex mt-4">
+					<li class="li-transform">
+						<a href="#" class="a-decoration">
+							<img src="../img/sp/13.jpg" class="w-100"/>
+							<p class="text-center font-14 text-dark">好运之鲤大乔浮雕手机壳</p>
+							<p class="text-center text-danger">￥69.00
+								<span class="text-decoration font-12 text-secondary">￥89.00</span></p>
+						</a>
+					</li>
+					<li class="li-transform">
+						<a href="#" class="a-decoration">
+							<img src="../img/sp/14.jpg" class="w-100"/>
+							<p class="text-center font-14 text-dark">千年之狐李白浮雕手机壳</p>
+							<p class="text-center text-danger">￥58.00
+								<span class="text-decoration font-12 text-secondary">￥78.00</span></p>
+						</a>
+					</li>
+					<li class="li-transform">
+						<a href="#" class="a-decoration">
+							<img src="../img/sp/15.jpg" class="w-100"/>
+							<p class="text-center font-14 text-dark">元气少女小乔浮雕手机壳</p>
+							<p class="text-center text-danger">￥59.00
+								<span class="text-decoration font-12 text-secondary">￥89.00</span></p>
+						</a>
+					</li>
+					<li class="li-transform">
+						<a href="#" class="a-decoration">
+							<img src="../img/sp/16.jpg" class="w-100"/>
+							<p class="text-center font-14 text-dark">冰雪皑皑王昭君浮雕手机壳</p>
+							<p class="text-center text-danger">￥58.00
+								<span class="text-decoration font-12 text-secondary">￥78.00</span></p>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	<!-- 分页-->
+	<div class="row mb-5 mt-2">
+		<div class="col-sm-12 d-flex justify-content-between">
+			<ul class="list-unstyled d-flex">
+				<li>
+					<a href="pro_center.html" class="btn btn-info">1</a>
+					<a href="#" class="btn btn-info disabled">2</a>
+				</li>
+			</ul>
+			<ul class="list-unstyled d-flex">
+				<li>
+					<a href="pro_center.html" class="btn btn-secondary">&lt;</a>
+					<a href="#" class="btn btn-secondary disabled">&gt;</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<iframe src="footer.html" frameborder="0" scrolling="no" class="footer"></iframe>
+</body>
+</html>

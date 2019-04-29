@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1"/>
+	<link rel="stylesheet" href="../css/bootstrap.css"/>
+	<link rel="stylesheet" href="../css/header.css"/>
+	<link rel="shortcut icon" href="../img/tb/xy.png"/>
+	<script src="../js/jquery.min.js"></script>
+	<script src="../js/popper.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<style>
+		body{
+			background:url(../img/timg1.jpg) no-repeat;
+			background-size: 100%;
+		}
+	</style>
+	<title>登录页面</title>
+
+</head>
+<body>
+<div class="container">
+	 <div id="parent" class="position-fixed fixed-top-1 w-35">
+		 <!-- QQ登录 -->
+		 <div class="card bg-grey">
+			 <div class="card-header text-center">
+				 <a href="#QQ" class="card-link text-dark" data-toggle="collapse">QQ账号快速登录</a>
+			 </div>
+			 <div id="QQ" class="collapse active" data-parent="#parent">
+				 <div class="card-body text-center">
+					 <p class="font-14 text-dark">微信和QQ是两个独立账号，账号信息不互通</p>
+					 <h4>快速安全登录</h4>
+					 <p>请使用<a href="#" class="a-decoration text-info">QQ手机版</a>扫描快速二维码</p>
+					 <p>安全登录，防止盗号</p>
+					 <img src="../img/tb/qq.png"/>
+				 </div>
+			 </div>
+		 </div>
+		 <!-- 微信登录 -->
+		 <div class="card bg-grey">
+			 <div class="card-header text-center">
+				 <a href="#wx" class="card-link text-dark" data-toggle="collapse">微信账号登录</a>
+			 </div>
+			 <div id="wx" class="collapse" data-parent="#parent">
+				 <div class="card-body text-center">
+					 <p class="font-14 text-dark">微信和QQ是两个独立账号，账号信息不互通</p>
+					 <img src="../img/tb/wx.png"/>
+					 <p class="mt-2 mb-0">请使用微信扫描二维码登录</p>
+				 </div>
+			 </div>
+	 		</div>
+		 <!-- 注册 -->
+			 <ul class="d-flex justify-content-end list-unstyled mb-0">
+				 <li class="pr-2">
+					 <a href="javascript:;" class="a-decoration text-dark font-12">账号密码登录</a>
+				 </li>
+				 <li class="pl-2 pr-2">
+					 <a href="javascript:;" class="a-decoration text-dark font-12">注册新账号</a>
+				 </li>
+				 <li class="pl-2 pr-2">
+					 <a href="javascript:;" class="a-decoration text-dark font-12">意见反馈</a>
+				 </li>
+			 </ul>
+	 </div>
+</div>
+</body>
+</html>

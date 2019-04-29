@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1"/>
+	<link rel="stylesheet" href="../css/bootstrap.css"/>
+	<link rel="stylesheet" href="../css/header.css"/>
+	<link rel="stylesheet" href="../img/i/style.css"/>
+	<link rel="shortcut icon" href="../img/tb/xy.png"/>
+	<script src="../js/jquery.min.js"></script>
+	<script src="../js/popper.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/header.js"></script>
+	<title>商品详情页</title>
+</head>
+<body>
+	<header id="header" class="container"></header>
+	<!-- 面包屑导航-->
+	<ul class="breadcrumb mt-5">
+		<li class="breadcrumb-item">
+			<a href="index.html" class="a-decoration text-secondary font-14">商城首页</a>
+		</li>
+		<li class="breadcrumb-item">
+			<a href="#" class="a-decoration text-dark font-14">吕布智能机器人（豪华套装版）</a>
+		</li>
+	</ul>
+	<!-- 图片、简介-->
+	<div class="row mt-4 pl-3">
+		<!-- 左边图片部分-->
+		<div class="col-md-5 col-sm-12 p-0">
+			<!-- 主图-->
+				<img src="../img/lvbu/01.png" class="w-90 border mr-3"/>
+			<!-- 小图-->
+			<div class="mt-3">
+				<ul class="list-unstyled d-flex">
+					<li><img src="../img/lvbu/01.jpg" class="w-75 border"/></li>
+					<li><img src="../img/lvbu/02.jpg" class="w-75 border"/></li>
+					<li><img src="../img/lvbu/03.jpg" class="w-75 border"/></li>
+					<li><img src="../img/lvbu/04.jpg" class="w-75 border"/></li>
+					<li class="pr-4"><img src="../img/lvbu/05.jpg" class="w-75 border"/></li>
+				</ul>
+			</div>
+		</div>
+		<!-- 右边简介部分-->
+		<div class="col-md-7 col-sm-12 p-0 pr-3">
+			<!-- 标题、价格-->
+			<div class="border-bottom-c pb-2">
+				<h3>吕布智能机器人（豪华套装版）</h3>
+				<h2 class="text-danger pt-2">￥1999.00<span class="text-decoration font-14 text-secondary">￥2299.00</span></h2>
+			</div>
+			<!--售量、评价-->
+			<ul class="list-unstyled d-flex justify-content-between mt-4 border-bottom-c pb-3">
+				<li><span class="text-secondary font-14">已售：</span>3522</li>
+				<li><span class="text-secondary font-14">累计评价：</span>106</li>
+				<li>
+					<i class="icon-star-full font-20"></i>
+					<i class="icon-star-full font-20"></i>
+					<i class="icon-star-full font-20"></i>
+					<i class="icon-star-full font-20"></i>
+					<i class="icon-star-full font-20"></i>
+					<span class="text-warning font-22 ml-3">5.0</span>
+				</li>
+			</ul>
+			<!-- 数量选择-->
+			<div class="d-flex">
+				<p class="text-secondary pr-5">数量：</p>
+				<button class="btn text-white rounded-0">
+					<i class="icon-minus"></i>
+				</button>
+				<input type="text" value="1" class="input-no w-10 text-center"/>
+				<button class="btn text-white rounded-0">
+					<i class="icon-plus"></i>
+				</button>
+				<p class="text-secondary pl-5">（库存充足）</p>
+			</div>
+			<!-- 结算-->
+			<div class="mt-5">
+				<input type="button" value="加入购物车" class="input-no btn bg-danger text-white font-20 mr-4 w-30"/>
+				<input type="button" value="立即购买" class="input-no btn bg-danger text-white font-20 mr-5 w-30"/>
+				<a href="login.html" target="_blank" class="b-radio btn border-secondary ml-5">
+					<i class="icon-heart text-secondary font-14"></i>
+					<span class="text-secondary font-14">收藏</span>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- 商品详情页-->
+	<!-- 选项卡的部分-->
+	<ul class="nav nav-tabs justify-content-around mt-4 pb-3">
+		<li class="nav-item">
+			<a data-toggle="tab" href="#d1" class="nav-link a-decoration text-dark font-20 border-0">商品详情</a>
+		</li>
+		<li class="nav-item">
+			<a data-toggle="tab" href="#d2" class="nav-link a-decoration text-dark font-20 border-0">用户点评</a>
+		</li>
+		<li class="nav-item">
+			<a data-toggle="tab" href="#d3" class="nav-link a-decoration text-dark font-20 border-0">联系商家</a>
+		</li>
+	</ul>
+	<!--内容部分-->
+	<div class="tab-content mt-4">
+		<!--第一-->
+		<div id="d1" class="tab-pane active">
+			<!-- 文字介绍-->
+			<ul class="list-unstyled d-flex justify-content-between">
+				<li>商品名称：吕布智能机器人（豪华套装版）</li>
+				<li>店铺：官方商城</li>
+				<li>上架时间：2019-03-16</li>
+				<li>商品毛重：814g</li>
+			</ul>
+			<ul class="list-unstyled d-flex">
+				<li>商城：王者荣耀</li>
+				<!--<li></li>-->
+				<!--<li></li>-->
+				<!--<li></li>-->
+			</ul>
+			<!-- 图片介绍-->
+			<div class="text-center mt-5 mb-5">
+				<a href="#"><img src="../img/lvbu/0.jpg"/></a>
+				<a href="#"><img src="../img/lvbu/1.jpg"/></a>
+				<a href="#"><img src="../img/lvbu/06.jpg"/></a>
+				<a href="#"><img src="../img/lvbu/0.png"/></a>
+				<a href="#"><img src="../img/lvbu/07.jpg"/></a>
+				<a href="#"><img src="../img/lvbu/08.jpg"/></a>
+				<a href="#"><img src="../img/lvbu/09.jpg"/></a>
+				<a href="#"><img src="../img/lvbu/10.jpg"/></a>
+				<a href="#"><img src="../img/lvbu/11.jpg"/></a>
+				<a href="#"><img src="../img/lvbu/12.jpg"/></a>
+				<a href="#"><img src="../img/lvbu/13.jpg"/></a>
+				<a href="#"><img src="../img/lvbu/15.jpg"/></a>
+				<a href="#"><img src="../img/lvbu/16.jpg"/></a>
+				<a href="#"><img src="../img/lvbu/17.jpg"/></a>
+				<a href="#"><img src="../img/lvbu/18.jpg"/></a>
+				<a href="#"><img src="../img/lvbu/19.jpg"/></a>
+				<a href="#"><img src="../img/lvbu/20.jpg"/></a>
+				<a href="#"><img src="../img/lvbu/21.jpg"/></a>
+			</div>
+		</div>
+			<!-- 第二-->
+			<div id="d2" class="tab-pane">
+
+				<ul class="list-unstyled d-flex justify-content-center">
+					<span class="mt-2 font-18">玩家综合评分：</span>
+					<li>
+						<i class="icon-star-full font-28"></i>
+						<i class="icon-star-full font-28"></i>
+						<i class="icon-star-full font-28"></i>
+						<i class="icon-star-full font-28"></i>
+						<i class="icon-star-full font-28"></i>
+						<span class="text-warning font-28 ml-3">5.0</span>
+					</li>
+				</ul>
+				<!-- 玩家评论1-->
+				<div class="row border-bottom border-secondary pb-4">
+					<div class="col-sm-1">
+						<img src="../img/tb/0.png" class="rounded-50 w-100"/>
+						<p class="font-14 text-center mt-3">王者荣耀召唤师</p>
+					</div>
+					<div class="col-sm-11">
+						<div class="d-flex justify-content-between text-secondary">
+								<div class=" d-flex">
+									<span class="mt-1">商品评分</span>
+									<ul class="list-unstyled d-flex">
+										<li>
+											<i class="icon-star-full font-22"></i>
+											<i class="icon-star-full font-22"></i>
+											<i class="icon-star-full font-22"></i>
+											<i class="icon-star-full font-22"></i>
+											<i class="icon-star-full font-22"></i>
+											<span class="text-warning font-22 ml-3">5.0</span>
+										</li>
+									</ul>
+								</div>
+							  <div class="mt-1">2018-11-20 22:45:34</div>
+						</div>
+						<p>超帅！超级好玩~很喜欢</p>
+					</div>
+				</div>
+				<!-- 玩家评价2-->
+				<div class="row border-bottom border-secondary pb-4 pt-5">
+					<div class="col-sm-1">
+						<img src="../img/tb/head_default.jpg" class="rounded-50 w-100"/>
+						<p class="font-14 text-center mt-3">匿名用户115***4</p>
+					</div>
+					<div class="col-sm-11">
+						<div class="d-flex justify-content-between text-secondary">
+								<div class=" d-flex">
+									<span class="mt-1">商品评分</span>
+									<ul class="list-unstyled d-flex">
+										<li>
+											<i class="icon-star-full font-22"></i>
+											<i class="icon-star-full font-22"></i>
+											<i class="icon-star-full font-22"></i>
+											<i class="icon-star-full font-22"></i>
+											<i class="icon-star-full font-22"></i>
+											<span class="text-warning font-22 ml-3">5.0</span>
+										</li>
+									</ul>
+								</div>
+							  <div class="mt-1">2018-11-20 22:45:34</div>
+						</div>
+						<p>超帅！超级好玩~很喜欢</p>
+					</div>
+				</div>
+				<!-- 玩家评论3-->
+				<div class="row border-bottom border-secondary pb-4 pt-5">
+					<div class="col-sm-1">
+						<img src="../img/tb/head_default.jpg" class="rounded-50 w-100"/>
+						<p class="font-14 text-center mt-3">匿名用户668***8</p>
+					</div>
+					<div class="col-sm-11">
+						<div class="d-flex justify-content-between text-secondary">
+							<div class=" d-flex">
+								<span class="mt-1">商品评分</span>
+								<ul class="list-unstyled d-flex">
+									<li>
+										<i class="icon-star-full font-22"></i>
+										<i class="icon-star-full font-22"></i>
+										<i class="icon-star-full font-22"></i>
+										<i class="icon-star-full font-22"></i>
+										<i class="icon-star-full font-22"></i>
+										<span class="text-warning font-22 ml-3">5.0</span>
+									</li>
+								</ul>
+							</div>
+							<div class="mt-1">2018-11-20 22:45:34</div>
+						</div>
+						<p>超帅！超级好玩~很喜欢</p>
+					</div>
+				</div>
+				<!-- 玩家评论4-->
+				<div class="row border-bottom border-secondary pb-4 pt-5">
+					<div class="col-sm-1">
+						<img src="../img/tb/0.png" class="rounded-50 w-100"/>
+						<p class="font-14 text-center mt-3">王者荣耀召唤师</p>
+					</div>
+					<div class="col-sm-11">
+						<div class="d-flex justify-content-between text-secondary">
+							<div class=" d-flex">
+								<span class="mt-1">商品评分</span>
+								<ul class="list-unstyled d-flex">
+									<li>
+										<i class="icon-star-full font-22"></i>
+										<i class="icon-star-full font-22"></i>
+										<i class="icon-star-full font-22"></i>
+										<i class="icon-star-full font-22"></i>
+										<i class="icon-star-full font-22"></i>
+										<span class="text-warning font-22 ml-3">5.0</span>
+									</li>
+								</ul>
+							</div>
+							<div class="mt-1">2018-11-20 22:45:34</div>
+						</div>
+						<p>超帅！超级好玩~很喜欢</p>
+					</div>
+				</div>
+				<!-- 玩家评论5-->
+				<div class="row border-bottom border-secondary pb-4 pt-5">
+					<div class="col-sm-1">
+						<img src="../img/tb/head_default.jpg" class="rounded-50 w-100"/>
+						<p class="font-14 text-center mt-3">匿名用户168***2</p>
+					</div>
+					<div class="col-sm-11">
+						<div class="d-flex justify-content-between text-secondary">
+							<div class=" d-flex">
+								<span class="mt-1">商品评分</span>
+								<ul class="list-unstyled d-flex">
+									<li>
+										<i class="icon-star-full font-22"></i>
+										<i class="icon-star-full font-22"></i>
+										<i class="icon-star-full font-22"></i>
+										<i class="icon-star-full font-22"></i>
+										<i class="icon-star-full font-22"></i>
+										<span class="text-warning font-22 ml-3">5.0</span>
+									</li>
+								</ul>
+							</div>
+							<div class="mt-1">2018-11-20 22:45:34</div>
+						</div>
+						<p>超帅！超级好玩~很喜欢</p>
+					</div>
+				</div>
+			</div>
+		<!--第三-->
+		<div id="d3" class="tab-pane">
+			  <p>
+					<i class="icon-home text-info font-18"></i>
+					商家：官方商城
+				</p>
+				<p>
+					<i class="icon-mobile font-18 text-info"></i>
+					商家联系方式
+				<p class="text-secondary font-14">电话：13588888888</p>
+				<p class="text-secondary font-14">QQ：13588888888</p>
+				<p class="text-secondary font-14">微信：13588888888</p>
+				</p>
+				<a href="#" class="btn border-secondary">
+					<i class="icon-bubbles text-info"></i>
+					<span class="text-secondary">联系客服</span>
+				</a>
+				<p class="mt-4">
+					<i class="icon-stopwatch text-info"></i>
+					商家服务时间
+					<p class="text-secondary font-14">在线时间：每天上午9:00-晚上24:00</p>
+				</p>
+		</div>
+
+	</div>
+</div>
+<iframe src="footer.html" frameborder="0" scrolling="no" class="footer mt-5"></iframe>
+</body>
+</html>
